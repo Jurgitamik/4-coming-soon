@@ -7,27 +7,38 @@
 }
     .mouse > .wheel {
         display: inline-block;
-        width: 60px;
-        height: 60px;
+        width: 10px;
+        height: 40px;
         margin-top: 30px;
         background-color: #fff;
         border-radius: 5px;
-        background-image: url(../img/mouse.jpeg);
+        
         background-size: cover;
         background-position: center;
 
         animation-name: scroll;
-        animation-duration: 2s;
+        animation-duration: 4s;
         animation-iteration-count: infinite;
         animation-delay: 2s;
         animation-direction: alternate;
         animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
     }
     .mouse > .wheel:hover {
+        /*uzvedus pele sustoja*/
         animation-play-state: paused;
     }
 
 @keyframes scroll {
+    0% {
+        margin-top: 20px;
+    }
+    100% {
+        margin-top: 120px;
+        background-color: transparent;
+    }
+}
+
+/*@keyframes scroll {
     0% {
         margin-top: 30px;
         background-color: rgb(255, 0, 0);
@@ -40,4 +51,4 @@
         display: none;
         transform: rotate(360deg);
     }
-}
+} */
