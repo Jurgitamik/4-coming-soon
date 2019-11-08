@@ -10,6 +10,7 @@
         .progress-bar > .texts > .label {
             display: inline-block;
             float: left;
+            color: grey;
         }
         .progress-bar > .texts > .value {
             display: inline-block;
@@ -35,7 +36,7 @@
                 background-color: #03A9F4;
     
                 animation-name: loading;
-                animation-duration: 2s;
+                animation-duration: 10s;
                 animation-iteration-count: 1;
             }
 

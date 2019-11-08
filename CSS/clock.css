@@ -20,9 +20,10 @@
         }
         @keyframes numbers {
             0% {color: white;}
-            30% {color: blue;}
-            600% {color: black;}
-            100% {color: blue;}
+            25% {color: blue;}
+            50% {color: black;
+            font-weight: bold;}
+            75% {color: blue;}
         }
 
         .clock > .time > .label {

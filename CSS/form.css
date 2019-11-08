@@ -1,6 +1,7 @@
 form {
     display: inline-block;
     width: 100%;
+        
 }
     form > input,
     form > textarea {
@@ -12,14 +13,14 @@ form {
         border: none;
         border-bottom: 1px solid #ccc;
         resize: vertical;
-    }
+            }
     form > textarea {
         min-height: 100px;
-        max-height: 350px;
+        max-height: 350px;   
     }
     .two-in-row {
         width: 45%;
-        float: left;
+        float: left;  
     }
     .two-in-row:last-of-type {
         margin-left: 10%;
